@@ -159,6 +159,7 @@ a:hover .arr, a:focus-visible .arr, summary:hover .arr { transform: translate(4p
   font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
   color: var(--red-text); white-space: nowrap;
 }
+.head-links { display: flex; gap: 24px; flex-wrap: wrap; }
 .link-red:hover { color: var(--fg); }
 
 .circle-cta {
@@ -505,11 +506,14 @@ a:hover .arr, a:focus-visible .arr, summary:hover .arr { transform: translate(4p
   font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
 }
 .card-light .card-foot { border-top-color: rgba(0,0,0,.2); }
-.card-link:hover { color: var(--red-text); }
+.card-foot { width: auto; text-align: left; cursor: pointer; padding-inline: 0; padding-bottom: 0; }
+.card-foot:hover, .card-link:hover { color: var(--red-text); }
+.card.is-open .card-foot .arr { transform: rotate(90deg); }
 
 /* Hover / focus overlay: 70% filter, card still visible underneath */
 .card-overlay {
   position: absolute; inset: 0; z-index: 4;
+  bottom: calc(clamp(18px, 2vw, 26px) + 36px); /* stop above the footer row so it stays clickable */
   display: flex; flex-direction: column; justify-content: center;
   padding: clamp(24px, 2.6vw, 36px);
   background: rgba(10, 10, 10, .7);
@@ -520,13 +524,16 @@ a:hover .arr, a:focus-visible .arr, summary:hover .arr { transform: translate(4p
 }
 .card-overlay > * { transform: translateY(14px); transition: transform .5s var(--ease); }
 .card:hover .card-overlay,
-.card:focus-within .card-overlay { opacity: 1; visibility: visible; }
+.card:focus-within .card-overlay,
+.card.is-open .card-overlay { opacity: 1; visibility: visible; }
 .card:hover .card-overlay > *,
-.card:focus-within .card-overlay > * { transform: none; }
+.card:focus-within .card-overlay > *,
+.card.is-open .card-overlay > * { transform: none; }
 /* quiet the card's own type so overlay text reads; visuals stay visible through the filter */
-.card-body, .card-foot, .card-link { transition: opacity .45s var(--ease); }
-.card:hover :is(.card-body, .card-foot, .card-link),
-.card:focus-within :is(.card-body, .card-foot, .card-link) { opacity: .12; }
+.card-body { transition: opacity .45s var(--ease); }
+.card:hover .card-body,
+.card:focus-within .card-body,
+.card.is-open .card-body { opacity: .12; }
 .card-overlay ul {
   display: grid; gap: 10px;
   font-size: 13.5px; line-height: 1.55; font-weight: 500;
@@ -663,7 +670,7 @@ a:hover .arr, a:focus-visible .arr, summary:hover .arr { transform: translate(4p
   margin-bottom: 4px;
 }
 .skill-row dd { font-size: 14.5px; color: var(--muted); }
-.skills .btn { align-self: flex-start; }
+.skills .btn-row { display: flex; flex-wrap: wrap; gap: 12px; }
 
 /* =========================================================
    EDUCATION
