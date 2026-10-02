@@ -3,6 +3,37 @@ const LINKEDIN_URL = 'https://www.linkedin.com/';
 
 document.querySelectorAll('.js-linkedin').forEach(a => { a.href = LINKEDIN_URL; });
 
+// Accent swatches: red is the default (no data-accent); others recolour every accent.
+const ACCENT_META = { red: '#E50914', purple: '#AC58E9', navy: '#27187E', yellow: '#F5B700' };
+const swatches = document.querySelectorAll('.swatch');
+const themeMeta = document.querySelector('meta[name="theme-color"]');
+const setAccent = name => {
+  if (!ACCENT_META[name]) name = 'red';
+  if (name === 'red') delete document.documentElement.dataset.accent;
+  else document.documentElement.dataset.accent = name;
+  swatches.forEach(b => b.setAttribute('aria-pressed', b.dataset.accent === name));
+  themeMeta.content = ACCENT_META[name];
+  try { name === 'red' ? localStorage.removeItem('accent') : localStorage.setItem('accent', name); } catch (e) {}
+};
+swatches.forEach(b => b.addEventListener('click', () => {
+  setAccent(b.dataset.accent);
+}));
+try { const saved = localStorage.getItem('accent'); if (ACCENT_META[saved]) setAccent(saved); } catch (e) {}
+
+// Light / dark theme
+const themeBtn = document.querySelector('.theme-toggle');
+const themedImgs = document.querySelectorAll('img[data-dark-src]');
+const setTheme = dark => {
+  if (dark) document.documentElement.dataset.theme = 'dark';
+  else delete document.documentElement.dataset.theme;
+  themeBtn.setAttribute('aria-pressed', dark);
+  themeBtn.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+  themedImgs.forEach(img => { img.src = dark ? img.dataset.darkSrc : img.dataset.lightSrc; });
+  try { dark ? localStorage.setItem('theme', 'dark') : localStorage.removeItem('theme'); } catch (e) {}
+};
+themeBtn.addEventListener('click', () => setTheme(document.documentElement.dataset.theme !== 'dark'));
+setTheme(document.documentElement.dataset.theme === 'dark');
+
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // Page-load reveal (hero stagger driven by --i in CSS)
