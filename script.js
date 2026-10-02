@@ -1,5 +1,5 @@
 // Swap in the real profile URL when available.
-const LINKEDIN_URL = 'https://linkedin.com/in/saniya-wagh';
+const LINKEDIN_URL = 'https://www.linkedin.com/in/saniya-wagh-4502a52a7';
 
 document.querySelectorAll('.js-linkedin').forEach(a => { a.href = LINKEDIN_URL; });
 
@@ -35,7 +35,7 @@ themeBtn.addEventListener('click', () => setTheme(document.documentElement.datas
 setTheme(document.documentElement.dataset.theme === 'dark');
 
 // Project cards: "Project details" pins the overlay open (tap-friendly)
-document.querySelectorAll('.card-foot').forEach(btn => btn.addEventListener('click', () => {
+document.querySelectorAll('button.card-foot').forEach(btn => btn.addEventListener('click', () => {
   const open = btn.closest('.card').classList.toggle('is-open');
   btn.setAttribute('aria-expanded', open);
 }));

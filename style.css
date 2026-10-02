@@ -509,6 +509,11 @@ a:hover .arr, a:focus-visible .arr, summary:hover .arr { transform: translate(4p
 .card-foot { width: auto; text-align: left; cursor: pointer; padding-inline: 0; padding-bottom: 0; }
 .card-foot:hover, .card-link:hover { color: var(--red-text); }
 .card.is-open .card-foot .arr { transform: rotate(90deg); }
+.card-links { justify-content: flex-start; gap: 26px; }
+.card-links a { display: inline-flex; align-items: center; gap: 8px; transition: color .3s; }
+.card-links a:hover { color: var(--red-text); }
+.card-links svg { width: 16px; height: 16px; fill: currentColor; transition: transform .3s var(--ease); }
+.card-links a:hover svg { transform: translateY(-2px); }
 
 /* Hover / focus overlay: 70% filter, card still visible underneath */
 .card-overlay {
