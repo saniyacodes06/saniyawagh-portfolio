@@ -1,0 +1,295 @@
+1. NAVBAR
+SANIYA WAGH
+Navigation:
+- ABOUT
+- EXPERIENCE
+- PROJECTS
+- SKILLS
+- CERTIFICATES
+- CONTACT
+Right-side button:
+LET'S CONNECT ↗
+2. HERO SECTION
+Small label
+AI / ML ENTHUSIAST
+Main heading
+AI/ML
+ENGINEER
+Alternative if you want it closer to the resume wording:
+AI/ML
+ENTHUSIAST
+Supporting headline
+SPECIALIZING IN LLMs, RAG & AGENTIC AI.
+Description
+Motivated AI/ML enthusiast with strong knowledge of Python, SQL, and data analytics, currently specializing in LLMs, RAG, and Agentic AI. Hands-on experience developing AI projects focused on automation, data processing, and intelligent decision-making.     SaniyaWaghResume (1)
+
+CTA
+VIEW MY WORK →
+Secondary:
+LET'S CONNECT
+3. HERO SIDE INFORMATION
+Instead of the screenshot's "Based in New York", use information relevant to Saniya:
+BASED IN
+INDIA
+But since the resume itself does not explicitly state a location, this should only be added if Saniya wants it.
+A safer version:
+SPECIALIZING IN
+AI / ML
+LLMs
+RAG
+AGENTIC AI
+4. HIGHLIGHT STATS
+The screenshot has four large statistics. For Saniya, these can be based directly on measurable information from the resume.
+1000+
+SYSTEM LOGS ANALYZED
+5000+
+RECORDS ANALYZED
+2
+AI PROJECTS
+1
+RESEARCH PUBLICATION
+The 1000+ logs come from the BARC internship, while 5000+ records come from the Embrozon internship.     SaniyaWaghResume (1)
+The research publication is the IJERT publication described in the Bot Detection project.     SaniyaWaghResume (1)
+5. SELECTED WORK
+Instead of generic portfolio projects, this section should showcase the two projects actually present in the resume.
+SELECTED WORK
+PROJECT 01
+BOT DETECTION
+WITHOUT CAPTCHA
+Python · Machine Learning · Deep Learning · Random Forest · CNN · LSTM · N-Gram Models
+Description:
+Developed a CAPTCHA-free bot detection framework using behavioral and environmental signals to distinguish human and automated users.
+
+Additional points:
+Designed feature extraction pipelines using browser and user-interaction data for effective bot classification.
+
+Implemented and evaluated Random Forest, CNN, LSTM, and N-Gram-based classifiers for automated behavior detection.
+
+Published research in IJERT (ISSN 2278-0181, Vol. 15, Issue 03, March 2026) demonstrating the effectiveness of CAPTCHA-free bot detection.     SaniyaWaghResume (1)
+
+CTA:
+VIEW PROJECT ↗
+PROJECT 02
+AI VIDEO
+ASSISTANT
+RAG · LangChain · Vector Database · ChromaDB · HuggingFace Embeddings · Streamlit
+Description:
+Built an AI-powered meeting assistant for audio/video transcription, automated summarization, action-item and decision extraction.
+
+Additional points:
+Implemented RAG-based conversational querying using LangChain, ChromaDB, and HuggingFace embeddings to interact with meeting transcripts.
+
+Developed a Streamlit interface supporting YouTube/audio/video input and PDF/TXT report generation.     SaniyaWaghResume (1)
+
+CTA:
+VIEW PROJECT ↗
+6. EXPERIENCE SECTION
+I would not copy the screenshot's three-project-card layout here.
+Instead, create a large horizontal timeline because Saniya has three internships.
+EXPERIENCE
+CYBERSECURITY RESEARCH INTERN — BARC
+JAN 2026 — JUN 2026
+- Processed and analyzed 1000+ system logs using Sysmon
+- Performed data cleaning, filtering, and preprocessing
+- Identified patterns and generated actionable insights
+- Documented workflows and analysis processes
+    SaniyaWaghResume (1)
+DATA SCIENCE INTERN — EMBROZON TECHNOLOGIES
+JUL 2025 — AUG 2025
+- Analyzed datasets of 5000+ records using Python and Excel
+- Conducted exploratory data analysis to identify trends and patterns
+- Built basic machine learning models and generated insights
+    SaniyaWaghResume (1)
+DATA ANALYST INTERN — TRAVEL THE CITIES
+JAN 2025 — MAR 2025
+- Collected, cleaned, and processed customer booking data using Excel and SQL
+- Developed dashboards to track travel package performance and booking trends
+- Analyzed customer behavior to generate actionable business insights
+- Supported marketing decisions through data-driven reporting and analysis
+    SaniyaWaghResume (1)
+7. SERVICES → SPECIALIZATION
+The screenshot has a SERVICES block, but "services" doesn't fit Saniya's resume.
+I'd rename it:
+SPECIALIZATION
+Then use four cards:
+AI / MACHINE LEARNING
+Machine Learning, Deep Learning, Random Forest, CNN, LSTM
+LLMs & RAG
+LLMs, RAG, LangChain, Vector Databases, HuggingFace Embeddings
+DATA ANALYTICS
+Python, SQL, PLSQL, Pandas, NumPy, Excel
+INTELLIGENT SYSTEMS
+Agentic AI, Automation, Data Processing, Intelligent Decision-Making
+The technologies are grounded in the resume's project and technical-skills sections.     SaniyaWaghResume (1)     SaniyaWaghResume (1)
+8. ABOUT SECTION
+This should replace the screenshot's "About Me" section.
+ABOUT ME
+BUILDING INTELLIGENT SYSTEMS WITH DATA & AI.
+Motivated AI/ML enthusiast with strong knowledge of Python, SQL, and data analytics, currently specializing in LLMs, RAG, and Agentic AI.
+
+Hands-on experience developing AI projects focused on automation, data processing, and intelligent decision-making.
+
+This can be accompanied by a large visual/photo on the right, similar to the reference design.     SaniyaWaghResume (1)
+9. TECHNICAL SKILLS
+Instead of the percentage bars in the reference screenshot, I'd use technology clusters. The resume doesn't provide proficiency percentages, so we shouldn't invent them.
+TECHNICAL SKILLS
+PROGRAMMING
+Python · SQL · PLSQL
+AI & MACHINE LEARNING
+Machine Learning · Deep Learning · Random Forest · CNN · LSTM
+LLM & AI SYSTEMS
+LLMs · RAG · Agentic AI · LangChain · HuggingFace Embeddings
+DATA & ANALYTICS
+Pandas · NumPy · Excel
+OTHER
+ReactJS · ChromaDB · Vector Database · Streamlit
+The core programming, AI/ML and data skills are explicitly listed in the resume.     SaniyaWaghResume (1) The additional project technologies come from the project descriptions.     SaniyaWaghResume (1)
+10. EDUCATION
+EDUCATION
+A.C. PATIL COLLEGE OF ENGINEERING
+B.E. IN ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
+2022 — 2026
+CGPA: 7.89
+    SaniyaWaghResume (1)
+This can be designed as a large minimalist block rather than a traditional resume-style section.
+11. RESEARCH
+This deserves its own section because it differentiates the portfolio.
+RESEARCH
+BOT DETECTION WITHOUT CAPTCHA
+IJERT · ISSN 2278-0181
+Vol. 15 · Issue 03 · March 2026
+Developed a CAPTCHA-free bot detection framework using behavioral and environmental signals to distinguish human and automated users.
+
+Designed feature extraction pipelines using browser and user-interaction data for effective bot classification.
+
+Implemented and evaluated Random Forest, CNN, LSTM, and N-Gram-based classifiers for automated behavior detection.
+
+    SaniyaWaghResume (1)
+A red/black editorial-style research block would fit the reference design very well.
+12. CERTIFICATIONS
+Instead of the screenshot's "Trusted By" section, use:
+CERTIFICATIONS
+THE COMPLETE 2024 WEB DEVELOPMENT BOOTCAMP
+Udemy
+REAL ETHICAL HACKING
+Udemy
+DATA ANALYTICS JOB SIMULATION
+Accenture
+DEEP LEARNING FOR DEVELOPERS
+Infosys Springboard
+These are the four certifications listed in the resume.     SaniyaWaghResume (1)
+13. CONTACT / CTA
+The screenshot has:
+LET'S CREATE SOMETHING GREAT TOGETHER.
+
+For Saniya, I'd change this to:
+LET'S BUILD
+SOMETHING
+INTELLIGENT.
+Supporting text:
+Interested in AI, data, and intelligent systems? Let's connect.
+CONTACT
++91 93217 35647
+saniyawagh0611@gmail.com
+LINKEDIN ↗
+The phone number, email, and LinkedIn are provided in the resume.     SaniyaWaghResume (1)     SaniyaWaghResume (1)
+14. FOOTER
+SANIYA WAGH
+AI / ML · DATA SCIENCE · LLMs · RAG
+Links:
+- LinkedIn
+- Email
+- Projects
+- Experience
+Bottom:
+© 2026 SANIYA WAGH
+Final website hierarchy
+So the actual portfolio structure I'd recommend is:
+NAVBAR
+│
+├── SANIYA WAGH
+├── ABOUT
+├── EXPERIENCE
+├── PROJECTS
+├── SKILLS
+├── CERTIFICATES
+└── LET'S CONNECT
+│
+▼
+HERO
+│
+├── AI / ML ENTHUSIAST
+├── AI/ML ENGINEER
+├── LLMs • RAG • AGENTIC AI
+└── VIEW MY WORK
+│
+▼
+HIGHLIGHT NUMBERS
+│
+├── 1000+ SYSTEM LOGS
+├── 5000+ RECORDS
+├── 2 AI PROJECTS
+└── 1 RESEARCH PUBLICATION
+│
+▼
+SELECTED WORK
+│
+├── BOT DETECTION WITHOUT CAPTCHA
+└── AI VIDEO ASSISTANT
+│
+▼
+EXPERIENCE
+│
+├── BARC
+├── EMBROZON TECHNOLOGIES
+└── TRAVEL THE CITIES
+│
+▼
+SPECIALIZATION
+│
+├── AI / MACHINE LEARNING
+├── LLMs & RAG
+├── DATA ANALYTICS
+└── INTELLIGENT SYSTEMS
+│
+▼
+ABOUT ME
+│
+└── AI/ML + DATA SCIENCE INTRO
+│
+▼
+TECHNICAL SKILLS
+│
+├── PROGRAMMING
+├── AI & ML
+├── LLM & AI SYSTEMS
+└── DATA & ANALYTICS
+│
+▼
+EDUCATION
+│
+└── A.C. PATIL COLLEGE OF ENGINEERING
+│
+▼
+RESEARCH
+│
+└── BOT DETECTION WITHOUT CAPTCHA
+│
+▼
+CERTIFICATIONS
+│
+├── Udemy
+├── Udemy
+├── Accenture
+└── Infosys Springboard
+│
+▼
+CONTACT CTA
+│
+└── LET'S BUILD SOMETHING INTELLIGENT.
+│
+▼
+FOOTER
+
+One important change from the reference
+I wouldn't force the screenshot's "Services → About → Skills → Trusted By" structure literally. The screenshot is built around a freelance web designer. For Saniya, the same visual rhythm can remain—large typography, red/black blocks, image-led sections, statistics, cards, horizontal dividers—but the information architecture should communicate AI/ML + Data Science + Research + Experience instead.
